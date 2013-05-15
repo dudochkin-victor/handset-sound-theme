@@ -1,0 +1,45 @@
+commit c63b86dd668417d426e7f8397e171f6f79c536bd
+Author: Shane Bryan <shane.bryan@linux.intel.com>
+Date:   Mon Oct 11 21:53:47 2010 +0000
+
+    Initial commit
+
+    Signed-off-by: Shane Bryan <shane.bryan@linux.intel.com>
+
+ .gitignore                   |   33 ++++++
+ COPYING                      |    8 ++
+ INSTALL                      |  237
+ ++++++++++++++++++++++++++++++++++++++++++
+ Makefile.am                  |   58 ++++++++++
+ NEWS                         |    5 +
+ README                       |    2 +
+ configure.ac                 |   18 +++
+ index.theme                  |    6 +
+ stereo/Makefile.am           |   44 ++++++++
+ stereo/alert-1.wav           |  Bin 0 -> 308438 bytes
+ stereo/alert-2.wav           |  Bin 0 -> 282444 bytes
+ stereo/alert-3.wav           |  Bin 0 -> 79292 bytes
+ stereo/alert-4.wav           |  Bin 0 -> 130092 bytes
+ stereo/battery-empty.wav     |  Bin 0 -> 281010 bytes
+ stereo/battery-low.wav       |  Bin 0 -> 128152 bytes
+ stereo/camera-self-timer.wav |  Bin 0 -> 2116882 bytes
+ stereo/camera-shutter.wav    |  Bin 0 -> 249118 bytes
+ stereo/chat-bg.wav           |  Bin 0 -> 95350 bytes
+ stereo/chat-fg.wav           |  Bin 0 -> 5830 bytes
+ stereo/connect.wav           |  Bin 0 -> 36470 bytes
+ stereo/default-beep.wav      |  Bin 0 -> 42486 bytes
+ stereo/disconnect.wav        |  Bin 0 -> 54714 bytes
+ stereo/error.wav             |  Bin 0 -> 122452 bytes
+ stereo/info.wav              |  Bin 0 -> 115608 bytes
+ stereo/key-1.wav             |  Bin 0 -> 500 bytes
+ stereo/key-2.wav             |  Bin 0 -> 2860 bytes
+ stereo/query.wav             |  Bin 0 -> 36480 bytes
+ stereo/rec-start.wav         |  Bin 0 -> 39990 bytes
+ stereo/rec-stop.wav          |  Bin 0 -> 17406 bytes
+ stereo/ring-1.wav            |  Bin 0 -> 519428 bytes
+ stereo/ring-2.wav            |  Bin 0 -> 431222 bytes
+ stereo/ring-3.wav            |  Bin 0 -> 421274 bytes
+ stereo/ring-4.wav            |  Bin 0 -> 260492 bytes
+ stereo/volume-max.wav        |  Bin 0 -> 31548 bytes
+ stereo/volume-min.wav        |  Bin 0 -> 39408 bytes
+ 35 files changed, 411 insertions(+), 0 deletions(-)
